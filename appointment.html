@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment form </title>
+    <style>
+        .hg{
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: xx-large;
+        }
+        .hgi{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+        }
+        .tc{
+            border-top: 8px;
+            width: 460px;
+            border-bottom-color: cadetblue;
+            border-left: 30px;
+            border-top-right-radius: 2%;
+            height: 45px;
+            font-size: 30px;
+        }
+        .ui{
+            position: absolute;
+            top: 180px;
+            left: 300px;
+        }
+        .rtr{
+            position: absolute;
+            top: 125px;
+            left: 660px;
+            text-decoration: none;
+        }
+        .rte{
+            position: absolute;
+            top: 125px;
+            left: 735px;
+            text-decoration: none;
+            
+        }
+        .rtu{
+            position: absolute;
+            top: 125px;
+            left: 825px;
+            text-decoration: none;
+        }
+        .rty{
+            position: absolute;
+            top: 125px;
+            left: 925px;
+            text-decoration: none;
+        }
+        .rtp{
+            position: absolute;
+            top: 125px;
+            left: 1033px;
+            text-decoration: none;
+        }
+        .rtm{
+            position: absolute;
+            top: 125px;
+            left: 1122px;
+            text-decoration: none;
+        }
+        .lk{
+        width: 1455px;
+        height: 161px;
+        
+       }
+    </style>
+</head>
+<body>
+    <img src="image/title.png" class="lk">
+    <a href="homepage.html" class="rtr">.</a>
+    <a href="service.html" class="rte">.</a>
+    <a href="doctors.html" class="rtu">.</a>
+    <a href="facilities.html" class="rty">.</a>
+    <a href="pricing.html" class="rtp">.</a>
+    <a href="more.html" class="rtm">.</a>
+    <form action="#" method="post">
+        <div class="ui">
+       <lable class="hg">Patient Name:-</lable>
+        <input type="text" name="name"  class="tc">
+        <br>
+        <br>
+        <lable class="hg">Age:-</lable>
+        <input type="text" name="age" class="tc">
+        <br>
+        <br>
+        <lable class="hg">Gender:-</lable>
+        <br>
+        <lable class="hg">Male:-</lable>
+        <input type="radio" name="gender" value="Gender">
+       <lable class="hg"> Female:-</lable>
+        <input type="radio" name="gender" value="Gender">
+        
+        <lable class="hg"> Other:-</lable>
+        <input type="radio" name="gender" value="Gender">
+        <br>
+        <br>
+        <label class="hg">Address:-</label>
+        <input type="textarea" name="address" class="tc">
+        <br>
+        <label class="hg">Phone Number:-  </label>
+        <input type="number" name="number"  class="tc"> 
+        <br>
+        <br>
+        <label  class="hg">Doctor:-  </label>
+        <select name="Doctor" class="hgi">
+            <option value="Doctor">Select Doctor</option> 
+           <option value="Doctor">ab</option>
+           <option value="Doctor">bc</option>
+           <option value="Doctor">de</option>
+           <option value="Doctor">fg</option>
+           <option value="Doctor">hi</option>
+           <option value="Doctor">jk</option>
+           <option value="Doctor">lm</option>
+           <option value="Doctor">np</option>
+           <option value="Doctor">qr</option>
+        </select> 
+        <br> 
+        <br>
+        <label class="hg">Time:-    </label>
+        <input type="time" name="time"  class="tc">
+        <br>
+        <br>
+        <label class="hg">Date:-     </label>
+        <input type="date" name="date" class="tc">
+        <br>
+        <br>
+
+        <br>
+        <input type="submit" name="submit" value="Submit" class="tc">
+    </div>
+    </form>
+    
+</body>
+</html>
